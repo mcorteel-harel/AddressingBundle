@@ -37,7 +37,7 @@
                 "version": "dev-master",
                 "dist": {
                     "url": "https://github.com/mcorteel-harel/addressing/archive/refs/heads/patch-1.zip",
-                    "type": "zip",
+                    "type": "zip"
                 }
             }
         }
