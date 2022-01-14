@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "mcorteel-harel/addressing": "dev-patch-1",
+        "markup/addressing": "dev-master",
         "symfony/framework-bundle": "^3.4|^4|^5"
     },
     "require-dev": {
@@ -29,6 +29,20 @@
     "suggest": {
         "symfony/validator": "^3.4|^4|^5"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "markup/addressing",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/mcorteel-harel/addressing",
+                    "type": "git",
+                    "reference": "patch-1"
+                }
+            }
+        }
+    ],
     "autoload": {
         "psr-4": { "Markup\\AddressingBundle\\": "" }
     },
