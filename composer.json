@@ -35,10 +35,9 @@
             "package": {
                 "name": "markup/addressing",
                 "version": "dev-master",
-                "source": {
-                    "url": "https://github.com/mcorteel-harel/addressing",
-                    "type": "git",
-                    "reference": "patch-1"
+                "dist": {
+                    "url": "https://github.com/mcorteel-harel/addressing/archive/refs/heads/patch-1.zip",
+                    "type": "zip",
                 }
             }
         }
